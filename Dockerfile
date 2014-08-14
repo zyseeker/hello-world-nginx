@@ -9,4 +9,4 @@ ADD nginx.conf /etc/nginx/nginx.conf
 ADD ./www-data /www-data
 
 EXPOSE 80
-ENTRYPOINT ["nginx"]
+CMD ["nginx"]
